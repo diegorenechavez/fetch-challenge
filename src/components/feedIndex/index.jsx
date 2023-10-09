@@ -104,7 +104,7 @@ export default function FeedIndex({ resultIds, nextPage, prevPage, handleSubmit,
             <MatchButton />
         
             {toggleLoading()}
-            {dogs.length &&
+            {dogs.length > 0 &&
                 toggleButtons()}
 
 
