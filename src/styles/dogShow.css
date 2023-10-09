@@ -124,6 +124,6 @@
   }
   
 
-  .order label {
+  .order > label {
     margin-right: 5px;
   }
