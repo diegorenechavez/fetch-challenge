@@ -18,6 +18,12 @@
   #greeting{
     font-family: var(--main-font);
   }
+
+  @media (max-width: 700px) {
+    #greeting{
+      display: none;
+    }
+  }
   
 
   .header__title {

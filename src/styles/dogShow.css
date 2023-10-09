@@ -97,6 +97,10 @@
     }
   }
   
+  .container > h1.title{
+    text-align: center;
+    margin-right: calc(2rem + 20px);
+  }
 
   #heart-id {
     font-size: 3rem;
@@ -119,3 +123,7 @@
     }
   }
   
+
+  .order label {
+    margin-right: 5px;
+  }
