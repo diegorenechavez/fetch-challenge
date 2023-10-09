@@ -17,7 +17,7 @@ function App() {
   const [user, setUser] = useState(userInfo)
 
   return (
-    <Router>
+    <Router basename='/fetch-challenge'>
       <NavBar user={user} setUser={setUser}/>
       <Routes>
         <Route exact path="/" element={<SplashPage/>} />
