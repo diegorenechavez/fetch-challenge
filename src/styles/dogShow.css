@@ -1,0 +1,120 @@
+
+.dog-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    /* background-color: aqua; */
+    height: calc(100vh - 40px);
+    font-family: var(--main-font);
+  }
+  
+  .dog-details-inner {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    width: 75%;
+    margin: 0 auto;
+    background-color: white;
+    height: 50%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.256);
+  }
+  
+  .dog-image {
+    max-width: 100%;
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+  }
+  
+  .dog-info {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .dog-name {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color:var(--main-blue)
+  }
+  .title{
+    font-family: var(--main-font);
+    margin-bottom: 20px;
+  }
+  
+  .dog-breed, .dog-age, .dog-zip-code, .dog-description {
+    margin: 5px 0;
+    color: rgba(62, 62, 62, 0.901);
+  }
+  strong{
+    font-weight: 700;
+    color: rgb(73, 72, 72);
+    /* color: var(--main-orange); */
+  }
+  
+  .loading-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+  }
+  
+  .loading-container__image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+
+  @media (max-width: 768px) {
+    .dog-details {
+      flex-direction: column;
+    }
+  
+    .dog-details-inner {
+      max-width: 100%;
+      flex-direction: column;
+    }
+  
+    .dog-image {
+      width: 100%;
+    }
+  
+    .dog-info {
+      margin: 20px 0;
+    }
+    
+    .dog-name {
+      font-size: 20px;
+    }
+    
+    .dog-breed, .dog-age, .dog-zip-code, .dog-description {
+      font-size: 16px;
+    }
+  }
+  
+
+  #heart-id {
+    font-size: 3rem;
+    color: red;
+    animation: glowHeart 1.5s ease-in-out infinite;
+  }
+  
+  @keyframes glowHeart {
+    0% {
+      color: red;
+      text-shadow: 0 0 10px rgba(255, 0, 0, 0.529);
+    }
+    50% {
+      color: #ff5050; 
+      text-shadow: 0 0 20px rgba(255, 0, 0, 0.533);
+    }
+    100% {
+      color: red;
+      text-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+    }
+  }
+  
