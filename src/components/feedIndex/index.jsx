@@ -38,7 +38,7 @@ export default function FeedIndex({ resultIds, nextPage, prevPage, handleSubmit,
         } else {
             return (
                 <div className="loading-container">
-                    <img src="./dog-image.png" alt="" className="loading-container__image" />
+                    <img src="/fetch-challenge/dog-image.png" alt="" className="loading-container__image" />
                     <h1 className="loading-container__title title">Dont Worry, once You tell us more, we will fill this area with pups!</h1>
                 </div>
             )

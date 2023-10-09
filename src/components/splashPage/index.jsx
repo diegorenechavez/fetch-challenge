@@ -6,7 +6,7 @@ export default function SplashPage(props) {
 
             <main className="hero">
                 <figure className="hero__image">
-                    <img src="hero-banner.jpg" alt="" className="hero-banner" />
+                    <img src="/fetch-challenge/hero-banner.jpg" alt="" className="hero-banner" />
                     <div className="hero__call-to-action-wrapper">
                         <figcaption className="hero__call-to-action">
                             <h2 className="title">
@@ -24,15 +24,15 @@ export default function SplashPage(props) {
                 <h2 className="feature-intro title">What We Offer</h2>
                 <div className="below-the-fold__feature-list">
                     <div className="below-the-fold__feature-item">
-                        <img src="featureOne.jpg" alt="" className="feature-image" />
+                        <img src="/fetch-challenge/featureOne.jpg" alt="" className="feature-image" />
                         <h3 className="feature-title">Search By Your Favorite Breed</h3>
                     </div>
                     <div className="below-the-fold__feature-item">
-                        <img src="featureTwo.jpg" alt="" className="feature-image" />
+                        <img src="/fetch-challenge/featureTwo.jpg" alt="" className="feature-image" />
                         <h3 className="feature-title">Save Your Favorites</h3>
                     </div>
                     <div className="below-the-fold__feature-item">
-                        <img src="featureThree.jpg" alt="" className="feature-image" />
+                        <img src="/fetch-challenge/featureThree.jpg" alt="" className="feature-image" />
                         <h3 className="feature-title">Get Matched With Your Perfect Pup</h3>
                     </div>
                 </div>

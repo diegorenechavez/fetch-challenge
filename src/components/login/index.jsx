@@ -71,7 +71,7 @@ export default function LoginPage({setCurrentUser}) {
 
             </div>
             <div className="login-screen__image-container">
-                <img src="login-image.jpg" alt="" className="login-screen__image"/>
+                <img src="/fetch-challenge/login-image.jpg" alt="" className="login-screen__image"/>
 
             </div>
        </div>

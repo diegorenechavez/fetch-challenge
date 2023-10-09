@@ -58,7 +58,7 @@ export default function DogMatchPage(props) {
         </div>
       ) : (
         <div className="loading-container">
-          <img src="./dog-image.png" alt="" className="loading-container__image" />
+          <img src="/fetch-challenge/dog-image.png" alt="" className="loading-container__image" />
 
         </div>
       )}
