@@ -6,165 +6,167 @@
     padding: 40px;
 }
 
+
 @media (max-width: 1200px) {
-    .main-feed{
-        grid-template-columns: 1fr 1fr 1fr ; 
-    }
-    
+  .main-feed{
+    grid-template-columns: 1fr 1fr 1fr ; 
   }
+  
+}
 
-  @media (max-width: 900px) {
-    .main-feed{
-        grid-template-columns: 1fr 1fr ; 
-    }
-    
+@media (max-width: 900px) {
+  .main-feed{
+    grid-template-columns: 1fr 1fr ; 
   }
+  
+}
 
-  @media (max-width: 550px) {
-    .main-feed{
-        grid-template-columns: 1fr ; 
-    }
-    
+@media (max-width: 550px) {
+  .main-feed{
+    grid-template-columns: 1fr ; 
   }
+  
+}
 
 .card {
-    border: 1px solid #ccc;
-    padding: 20px;
-    width: 100%;
-    border-radius: 5px;
-    position: relative;
-
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+  
 }
 
 .card__image {
-    max-width: 100%;
-    width: 100%;
-    min-height: 400px;
-    max-height: 400px;
-    object-fit: cover;
+  max-width: 100%;
+  width: 100%;
+  min-height: 400px;
+  max-height: 400px;
+  object-fit: cover;
 }
 
 
 
 .card__dog-info h2 {
-    font-family: var(--main-font);
-    font-size: 1.25rem;
-    font-weight: 100;
-    color: rgb(66, 66, 66);
+  font-family: var(--main-font);
+  font-size: 1.25rem;
+  font-weight: 100;
+  color: rgb(66, 66, 66);
 }
 
 .label{
-    color: rgb(83, 83, 83);
-    font-weight: 700;
+  color: rgb(83, 83, 83);
+  font-weight: 700;
 }
 
 .card__dog-name {
-    font-size: 1.5rem;
-    margin: 0.5rem 0;
-    color: var(--main-orange);
-    font-family: var(--main-font);
-    font-weight: 700;
-    text-align: center;
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+  color: var(--main-orange);
+  font-family: var(--main-font);
+  font-weight: 700;
+  text-align: center;
 }
 
 .card__dog-breed {
-    font-size: 1rem;
-    margin: 0.25rem 0;
+  font-size: 1rem;
+  margin: 0.25rem 0;
 }
 
 .card__dog-age {
-    font-size: 0.9rem;
-    margin: 0.25rem 0;
+  font-size: 0.9rem;
+  margin: 0.25rem 0;
 }
 
 .card__dog-zip-code {
-    font-size: 0.8rem;
-    margin: 0.25rem 0;
+  font-size: 0.8rem;
+  margin: 0.25rem 0;
 }
 
 #heart-icon{
-    position: absolute;
-    z-index: 10;
-    top: calc(20px + 1%);
-    left: calc(20px + 1%);
-    font-size: 2rem;
-    color: var(--main-blue);
-    font-weight: 400;
+  position: absolute;
+  z-index: 10;
+  top: calc(20px + 1%);
+  left: calc(20px + 1%);
+  font-size: 2rem;
+  color: var(--main-blue);
+  font-weight: 400;
 }
 #heart-icon:hover{
-    cursor: pointer;
+  cursor: pointer;
 }
 
 
 
 
 .css-qbdosj-Input{
-    z-index: 25;
+  z-index: 25;
 }
 
 .search-bar__form{
-    box-shadow: 0px 0px 4px 0px #80808057;
-    margin-top: 20px;
-    width: 100%;
-    padding: 10px;
-    font-family: var(--main-font);
+  box-shadow: 0px 0px 4px 0px #80808057;
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  font-family: var(--main-font);
 }
 
 #search-bar__title{
-    text-align: center;
-    font-family: var(--main-font);
-    font-weight: 700;
-    font-size: 2rem;
-    color: var(--main-orange);
-    padding: 10px;
-
+  text-align: center;
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 2rem;
+  color: var(--main-orange);
+  padding: 10px;
+  
 }
 
 .submit{
-    background-color: var(--main-blue);
-    padding: 10px;
-    font-size: 1rem;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-    cursor: pointer;
-    width: 100%;
+  background-color: var(--main-blue);
+  padding: 10px;
+  font-size: 1rem;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  width: 100%;
 }
 
 .submit:hover{
-    background-color: #0056b3; 
-    cursor: pointer;
+  background-color: #0056b3; 
+  cursor: pointer;
 }
 
 .age-range{
-    width: 100%;
-    display: flex;
-    padding: 20px;
-    justify-content: space-evenly;
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  justify-content: space-evenly;
 }
 
 input[type="number"]{
-    font-family: var(--main-font);
-    width: 50%;
-    margin-left: 5px;
+  font-family: var(--main-font);
+  width: 50%;
+  margin-left: 5px;
 }
 
 .order{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .loading-container{
-    width: 100%;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  
+  
 }
 
 .loading-container__title{

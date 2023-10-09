@@ -42,6 +42,7 @@ export default function FeedIndexItem({ dog }) {
   return (
     <div className="card">
       <img src={dog.img} alt="" className="card__image" />
+   
       <div className="card__dog-info">
         <h1 className="card__dog-name"> {dog.name}</h1>
         <h2 className="card__dog-breed"><span className="label">Breed:</span> {dog.breed}</h2>
